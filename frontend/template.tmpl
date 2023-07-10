@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang='en'>
+{{ $vue := . }}
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>GoLang Vite Vue</title>
+        {{ if $vue }}
+          {{ $vue.RenderTags }}
+        {{ end }}
+    </head>
+    <body>
+        {{ if $vue }}
+          {{ $id := "app" }}
+          <div id="{{ $id }}"></div>
+        {{ end }}
+    </body>
+</html>
