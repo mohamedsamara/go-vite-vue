@@ -1,4 +1,4 @@
-module github.com/mohamedsamara/golang-vite-vue
+module github.com/mohamedsamara/go-vite-vue
 
 go 1.19
 

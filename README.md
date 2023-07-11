@@ -1,4 +1,4 @@
-# GoLang Vite Vue
+# Go Vite Vue
 
 ## Build Frontend Bundle
 
